@@ -1,0 +1,151 @@
+body{
+  color: #40514E;
+  margin: 0;/* Setting this removes all the white space around the element and the test or anything starts touching the border*/
+  text-align: center;
+  font-family: 'Bitter', serif;
+}
+a{
+  color: #11999E;
+  margin: 20px 20px;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+h1{
+  margin: 50px auto 0 auto;
+  /*width: 15%;  set the size of the div block element so that it won't take the whole layout space
+  margin: 0 auto; after setting width in order to bring it to center, keep top , bottom to 0 and right, left to auto*/
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2.5rem;
+  margin: 20px auto 0 auto;
+}
+h3{
+  color:#11999E;
+  margin: 20px auto 40px;
+}
+hr{
+  border:none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 5%;
+  margin: 80px auto;
+}
+p{
+  font-family: 'Bitter', serif;
+  line-height: 2;
+}
+/***********************************************#d4f8e8***********************CLASS TAGS***************************************************************/
+.first-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding: 50px 0 20px;
+}
+.middle-container{
+  padding: 30px 0;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px;
+}
+.top-cloud{
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  top: 260px;
+  bottom: 200px;
+  left: 300px;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+  padding-top: 20px;
+}
+.picture{
+  width: 13%;
+}
+.pro{
+  text-decoration: underline;
+}
+.sub{
+  font-weight: normal;
+}
+.skill-row {
+  width:50%;
+  margin:40px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.py-pic {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.web{
+  width: 18%;
+  float:right ;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.pen{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.contact-me{
+  line-height: 2;
+}
+.btn {
+	-moz-box-shadow: -5px -7px 32px -7px ;
+	-webkit-box-shadow: -5px -7px 32px -7px ;
+	box-shadow: -5px -7px 32px -7px ;
+	background-color:#45c5c7;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Noto Sans', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:48px;
+	line-height:48px;
+width:176px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2f6627;
+}.btn:hover {
+	background-color:#2da3bd;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
